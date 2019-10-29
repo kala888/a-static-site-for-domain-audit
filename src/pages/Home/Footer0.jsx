@@ -16,7 +16,7 @@ class Footer extends React.PureComponent {
             key="footer"
             {...dataSource.copyright}
           >
-            {dataSource.copyright.children}
+            <div>蜀ICP备18006329号</div>{dataSource.copyright.children}
           </TweenOne>
         </OverPack>
       </div>
